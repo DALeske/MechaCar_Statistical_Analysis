@@ -4,19 +4,24 @@
 
 ![Deliverable 1 Output](/Resources/Deliverable1.png)
 
-1- Variables / coefficients providing non-random amounts of variability to MPG: 
+<b>1- Which variables / coefficients provided a non-random amount of variability to MPG?</b>
+
     - vehicle_length
     - ground clearance
     - the intercept is significant, but does not actually contribute to the variability
 
-2- Is the slope non-zero? why or why not? 
+<b>2- Is the slope non-zero? Why or why not?</b> 
+
     Yes, the slope is non-zero. The p-value for the overall model is 5.35e-11, which is much smaller than 0.05
 
-3- Does the linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+<b>3- Does the linear model predict mpg of MechaCar prototypes effectively? Why or why not?</b>
+    
     Yes, the model effectively predicts the MPG of the MechaCar prototype. With an r-square of 0.7149, the model accounts for 71% of the variability, which indicative of a fairly robust model.
 
+
 ## Summary Statistics on Suspension Coils: Deliverable 2
-1- Does the current manufacturing data meet the design specs overall and for each lot? Why or why not?
+<b>1- Does the current manufacturing data meet the design specs overall and for each lot? Why or why not?</b>
+
 No, the specs of a variance less than 100 PSI is not met. Overall, the variance is less than 100 PSI, 
 
 ![Total_Summary](/Resources/D2-Total_summary.png)
@@ -27,14 +32,14 @@ but when looking at individual lots, lot 3 has a variance of 170 PSI.
 
 ## T-Tests on Suspension Coils: Deliverable 3
 
-Is the PSI across all manufacturing lots statistically different from the standard of 1500 PSI?
+<b>Is the PSI across all manufacturing lots statistically different from the standard of 1500 PSI?</b>
 
 Based on the data, there is no evidence that the mean PSI is statistically difference from the standard of 1500 PSI when looking across all manufacturing lots.
 
 ![Overall PSI Comparison](/Resources/D3overall.png)
 
 
-Is the PSI within each manufacturing lot statistically different from the standard of 1500 PSI?
+<b>Is the PSI within each manufacturing lot statistically different from the standard of 1500 PSI?</b>
 
 There is no evidence of a statistical difference from the industry standard of 1500 PSI in lots 1 and 2, however, it appears that that mean PSI in lot 3 is statistically lower than the industry standard.
 
