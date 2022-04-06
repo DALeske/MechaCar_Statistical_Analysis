@@ -6,9 +6,9 @@
 
 <b>1- Which variables / coefficients provided a non-random amount of variability to MPG?</b>
 
-    - vehicle_length
-    - ground clearance
-    - the intercept is significant, but does not actually contribute to the variability
+- vehicle_length
+- ground clearance
+- the intercept is significant, but does not actually contribute to the variability
 
 <b>2- Is the slope non-zero? Why or why not?</b> 
 
