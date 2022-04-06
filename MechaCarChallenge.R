@@ -25,3 +25,21 @@ lot_summary <- Springs %>%
              Median = median(PSI),
              Variance = var(PSI),
              SD = sd(PSI))
+
+# DELIVERABLE 3
+# Overall Difference from standard of 1500 PSI: 1-sample t-test
+t.test(Springs$PSI, mu=1500)
+
+# 1-sample t-test for each lot
+# Lot 1
+lot1 <- subset(Springs, Manufacturing_Lot=='Lot1')
+t.test(lot1$PSI, mu=1500)
+
+# Lot 2
+lot2 <- subset(Springs, Manufacturing_Lot=='Lot2')
+t.test(lot2$PSI, mu=1500)
+
+# Lot 3
+lot3 <- subset(Springs, Manufacturing_Lot=='Lot3')
+t.test(lot3$PSI, mu=1500)
+
