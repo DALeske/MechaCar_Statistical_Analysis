@@ -12,11 +12,11 @@
 
 <b>2- Is the slope non-zero? Why or why not?</b> 
 
-    Yes, the slope is non-zero. The p-value for the overall model is 5.35e-11, which is much smaller than 0.05
+Yes, the slope is non-zero. The p-value for the overall model is 5.35e-11, which is much smaller than 0.05
 
 <b>3- Does the linear model predict mpg of MechaCar prototypes effectively? Why or why not?</b>
     
-    Yes, the model effectively predicts the MPG of the MechaCar prototype. With an r-square of 0.7149, the model accounts for 71% of the variability, which indicative of a fairly robust model.
+Yes, the model effectively predicts the MPG of the MechaCar prototype. With an r-square of 0.7149, the model accounts for 71% of the variability, which indicative of a fairly robust model.
 
 
 ## Summary Statistics on Suspension Coils: Deliverable 2
