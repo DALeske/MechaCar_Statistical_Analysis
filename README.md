@@ -84,5 +84,7 @@ For Fuel consumption, the hypothesis is that MechaCar has better fuel economy th
 
 For power:weight ratio, the hypothesis is that MechaCar has a higher power:weight ratio than the competition. The null hypothesis is that power:weight ratio is the same. 
 
+Data for both the MechaCar and the Competition's cars (assuming a single competitor) for all of their AWD drive vehicles will be needed. The dataset will have fields for each of the parameters that are being compared and and additional field to indicate which company the vehicle belongs to.
+
 ### Outcomes
 Each of the comparisons will be interpreted essentially the same. If the p-value is 0.05 or greater, we will fail to reject the null hypothesis and conclude that there is no evidence to suggest that the metric for MechaCar is different from the metric for the Competition. A p-value <0.05 will result in rejecting the null hypothesis and concluding that there is a difference in the mean metric between MechaCar and the competition. Since a 2-sided test is being conducted, the direction of the difference must be interpreted. 
